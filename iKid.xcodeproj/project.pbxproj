@@ -14,15 +14,18 @@
 		2F5124BA2028213F0034E504 /* Pun2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124B92028213F0034E504 /* Pun2ViewController.swift */; };
 		2F5124BC2028214C0034E504 /* Pun1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124BB2028214C0034E504 /* Pun1ViewController.swift */; };
 		2F5124BE202846970034E504 /* KK5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124BD202846970034E504 /* KK5ViewController.swift */; };
+		2F5124C020284A430034E504 /* dad1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5124BF20284A430034E504 /* dad1.png */; };
+		2F5124C420284B700034E504 /* dad0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5124C320284B700034E504 /* dad0.png */; };
+		2F5124C620284B960034E504 /* dad2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5124C520284B960034E504 /* dad2.png */; };
+		2F5124C820284C950034E504 /* Dad2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124C720284C950034E504 /* Dad2ViewController.swift */; };
+		2F5124CA20284CAE0034E504 /* Dad1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124C920284CAE0034E504 /* Dad1ViewController.swift */; };
+		2F5124CC20284CBA0034E504 /* Dad3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124CB20284CBA0034E504 /* Dad3ViewController.swift */; };
 		2F7E856520268560007D13B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E856420268560007D13B6 /* AppDelegate.swift */; };
 		2F7E856720268560007D13B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E856620268560007D13B6 /* ViewController.swift */; };
 		2F7E856A20268560007D13B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E856820268560007D13B6 /* Main.storyboard */; };
 		2F7E856C20268560007D13B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E856B20268560007D13B6 /* Assets.xcassets */; };
 		2F7E856F20268560007D13B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E856D20268560007D13B6 /* LaunchScreen.storyboard */; };
-		2F7E857720268C0F007D13B6 /* dad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E857620268C0F007D13B6 /* dad.png */; };
 		2F7E857920268DF7007D13B6 /* icons8-lol-50-iloveimg-resized.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E857820268DF6007D13B6 /* icons8-lol-50-iloveimg-resized.png */; };
-		2F7E857C20268E3E007D13B6 /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E857A20268E3D007D13B6 /* good.png */; };
-		2F7E857D20268E3E007D13B6 /* pun.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E857B20268E3D007D13B6 /* pun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,12 @@
 		2F5124B92028213F0034E504 /* Pun2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pun2ViewController.swift; sourceTree = "<group>"; };
 		2F5124BB2028214C0034E504 /* Pun1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pun1ViewController.swift; sourceTree = "<group>"; };
 		2F5124BD202846970034E504 /* KK5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KK5ViewController.swift; sourceTree = "<group>"; };
+		2F5124BF20284A430034E504 /* dad1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dad1.png; path = ../../../Desktop/dad1.png; sourceTree = "<group>"; };
+		2F5124C320284B700034E504 /* dad0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dad0.png; path = ../../../Desktop/dad0.png; sourceTree = "<group>"; };
+		2F5124C520284B960034E504 /* dad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dad2.png; path = ../../../Desktop/dad2.png; sourceTree = "<group>"; };
+		2F5124C720284C950034E504 /* Dad2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad2ViewController.swift; sourceTree = "<group>"; };
+		2F5124C920284CAE0034E504 /* Dad1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad1ViewController.swift; sourceTree = "<group>"; };
+		2F5124CB20284CBA0034E504 /* Dad3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad3ViewController.swift; sourceTree = "<group>"; };
 		2F7E856120268560007D13B6 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7E856420268560007D13B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F7E856620268560007D13B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,10 +49,7 @@
 		2F7E856B20268560007D13B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F7E856E20268560007D13B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F7E857020268560007D13B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F7E857620268C0F007D13B6 /* dad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dad.png; sourceTree = "<group>"; };
 		2F7E857820268DF6007D13B6 /* icons8-lol-50-iloveimg-resized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-lol-50-iloveimg-resized.png"; path = "../../../Downloads/icons8-lol-50-iloveimg-resized.png"; sourceTree = "<group>"; };
-		2F7E857A20268E3D007D13B6 /* good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = good.png; path = "../../../Downloads/iloveimg-resized-images/good.png"; sourceTree = "<group>"; };
-		2F7E857B20268E3D007D13B6 /* pun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pun.png; path = "../../../Downloads/iloveimg-resized-images/pun.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,13 +89,16 @@
 				2F7E856620268560007D13B6 /* ViewController.swift */,
 				2F5124B72027F68E0034E504 /* KK1ViewController.swift */,
 				2F7E856820268560007D13B6 /* Main.storyboard */,
+				2F5124CB20284CBA0034E504 /* Dad3ViewController.swift */,
+				2F5124C920284CAE0034E504 /* Dad1ViewController.swift */,
+				2F5124C720284C950034E504 /* Dad2ViewController.swift */,
+				2F5124BF20284A430034E504 /* dad1.png */,
+				2F5124C320284B700034E504 /* dad0.png */,
+				2F5124C520284B960034E504 /* dad2.png */,
 				2F5124BD202846970034E504 /* KK5ViewController.swift */,
 				2F5124B92028213F0034E504 /* Pun2ViewController.swift */,
 				2F5124BB2028214C0034E504 /* Pun1ViewController.swift */,
 				2F7E856B20268560007D13B6 /* Assets.xcassets */,
-				2F7E857620268C0F007D13B6 /* dad.png */,
-				2F7E857A20268E3D007D13B6 /* good.png */,
-				2F7E857B20268E3D007D13B6 /* pun.png */,
 				2F7E856D20268560007D13B6 /* LaunchScreen.storyboard */,
 				2F7E857020268560007D13B6 /* Info.plist */,
 				2F7E857820268DF6007D13B6 /* icons8-lol-50-iloveimg-resized.png */,
@@ -156,13 +165,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5124C420284B700034E504 /* dad0.png in Resources */,
+				2F5124C620284B960034E504 /* dad2.png in Resources */,
 				2F7E856F20268560007D13B6 /* LaunchScreen.storyboard in Resources */,
 				2F7E857920268DF7007D13B6 /* icons8-lol-50-iloveimg-resized.png in Resources */,
-				2F7E857C20268E3E007D13B6 /* good.png in Resources */,
+				2F5124C020284A430034E504 /* dad1.png in Resources */,
 				2F7E856C20268560007D13B6 /* Assets.xcassets in Resources */,
 				2F7E856A20268560007D13B6 /* Main.storyboard in Resources */,
-				2F7E857720268C0F007D13B6 /* dad.png in Resources */,
-				2F7E857D20268E3E007D13B6 /* pun.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,11 +185,14 @@
 				2F5124BA2028213F0034E504 /* Pun2ViewController.swift in Sources */,
 				2F5124B82027F68E0034E504 /* KK1ViewController.swift in Sources */,
 				2F1C25BF2027F348006125BE /* KK4ViewController.swift in Sources */,
+				2F5124CA20284CAE0034E504 /* Dad1ViewController.swift in Sources */,
 				2F7E856720268560007D13B6 /* ViewController.swift in Sources */,
 				2F7E856520268560007D13B6 /* AppDelegate.swift in Sources */,
+				2F5124C820284C950034E504 /* Dad2ViewController.swift in Sources */,
 				2F1C25BD2027F335006125BE /* KK3ViewController.swift in Sources */,
 				2F5124BC2028214C0034E504 /* Pun1ViewController.swift in Sources */,
 				2F1C25BB2027F321006125BE /* KK2ViewController.swift in Sources */,
+				2F5124CC20284CBA0034E504 /* Dad3ViewController.swift in Sources */,
 				2F5124BE202846970034E504 /* KK5ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

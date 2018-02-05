@@ -308,45 +308,64 @@
         <!--Dad-->
         <scene sceneID="052-Qc-F1q">
             <objects>
-                <viewController storyboardIdentifier="Dad1" id="Kw1-UX-FxF" customClass="ViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d1" id="Kw1-UX-FxF" customClass="Dad1ViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kvj-gc-iW8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rBk-B9-8cN">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dad0.png" translatesAutoresizingMaskIntoConstraints="NO" id="rBk-B9-8cN">
+                                <rect key="frame" x="20" y="30" width="335" height="437"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8W6-K7-6k5">
+                                <rect key="frame" x="171" y="517" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="dadButtonClick:" destination="Kw1-UX-FxF" eventType="touchUpInside" id="9mI-AV-Id2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="rBk-B9-8cN" firstAttribute="centerY" secondItem="Kvj-gc-iW8" secondAttribute="centerY" id="00E-8E-qIw"/>
+                            <constraint firstItem="8W6-K7-6k5" firstAttribute="top" secondItem="rBk-B9-8cN" secondAttribute="bottom" constant="50" id="GTm-8h-3uS"/>
+                            <constraint firstAttribute="bottom" secondItem="rBk-B9-8cN" secondAttribute="bottom" constant="200" id="MDB-cP-FCC"/>
+                            <constraint firstItem="rBk-B9-8cN" firstAttribute="leading" secondItem="Kvj-gc-iW8" secondAttribute="leading" constant="20" id="MP0-jg-qH2"/>
+                            <constraint firstItem="8W6-K7-6k5" firstAttribute="centerX" secondItem="Kvj-gc-iW8" secondAttribute="centerX" id="Ph5-Ug-KQB"/>
+                            <constraint firstItem="rBk-B9-8cN" firstAttribute="top" secondItem="Kvj-gc-iW8" secondAttribute="top" constant="30" id="dAo-Ip-yky"/>
                             <constraint firstItem="rBk-B9-8cN" firstAttribute="centerX" secondItem="Kvj-gc-iW8" secondAttribute="centerX" id="eUP-S3-L6t"/>
+                            <constraint firstAttribute="trailing" secondItem="rBk-B9-8cN" secondAttribute="trailing" constant="20" id="g1T-gq-kw5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9mi-7s-Dto"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dad" image="icons8-lol-50-iloveimg-resized.png" id="jTq-ko-Uou"/>
+                    <connections>
+                        <outlet property="dadButton" destination="8W6-K7-6k5" id="4LR-TI-xOv"/>
+                        <outlet property="img1" destination="rBk-B9-8cN" id="41i-1o-C1g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LC6-Vb-NTR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-900" y="761"/>
         </scene>
-        <!--View Controller-->
+        <!--Dad2 View Controller-->
         <scene sceneID="T6m-S9-Au0">
             <objects>
-                <viewController storyboardIdentifier="Dad2" id="MPD-pm-xWv" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="d2" id="MPD-pm-xWv" customClass="Dad2ViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4O5-Vd-Pye">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="jok" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dd-OB-Sor">
-                                <rect key="frame" x="170" y="332" width="23" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dad1.png" translatesAutoresizingMaskIntoConstraints="NO" id="45s-TS-CwU">
+                                <rect key="frame" x="20" y="50" width="335" height="417"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="45s-TS-CwU" firstAttribute="top" secondItem="nHJ-ca-4KW" secondAttribute="top" constant="30" id="AnJ-gL-8xj"/>
+                            <constraint firstItem="45s-TS-CwU" firstAttribute="centerX" secondItem="4O5-Vd-Pye" secondAttribute="centerX" id="E44-kh-28T"/>
+                            <constraint firstAttribute="trailing" secondItem="45s-TS-CwU" secondAttribute="trailing" constant="20" id="f7o-mb-38C"/>
+                            <constraint firstItem="45s-TS-CwU" firstAttribute="leading" secondItem="4O5-Vd-Pye" secondAttribute="leading" constant="20" id="qOi-HQ-YxZ"/>
+                            <constraint firstItem="nHJ-ca-4KW" firstAttribute="bottom" secondItem="45s-TS-CwU" secondAttribute="bottom" constant="200" id="xGp-jW-RLR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nHJ-ca-4KW"/>
                     </view>
                 </viewController>
@@ -354,8 +373,38 @@
             </objects>
             <point key="canvasLocation" x="-900" y="1425"/>
         </scene>
+        <!--Dad3 View Controller-->
+        <scene sceneID="nTE-Ib-9e8">
+            <objects>
+                <viewController storyboardIdentifier="d3" id="4UT-Lr-pNg" customClass="Dad3ViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SSO-AT-1bD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dad2.png" translatesAutoresizingMaskIntoConstraints="NO" id="VfI-6N-pt3">
+                                <rect key="frame" x="20" y="50" width="335" height="417"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VfI-6N-pt3" firstAttribute="centerX" secondItem="SSO-AT-1bD" secondAttribute="centerX" id="FYJ-eF-XVs"/>
+                            <constraint firstItem="riI-88-xsb" firstAttribute="bottom" secondItem="VfI-6N-pt3" secondAttribute="bottom" constant="200" id="LXs-XF-alS"/>
+                            <constraint firstItem="VfI-6N-pt3" firstAttribute="top" secondItem="riI-88-xsb" secondAttribute="top" constant="30" id="WSZ-wH-LDy"/>
+                            <constraint firstItem="riI-88-xsb" firstAttribute="trailing" secondItem="VfI-6N-pt3" secondAttribute="trailing" constant="20" id="Y3e-Cl-l2m"/>
+                            <constraint firstItem="VfI-6N-pt3" firstAttribute="leading" secondItem="riI-88-xsb" secondAttribute="leading" constant="20" id="cP6-Kw-IEg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="riI-88-xsb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hcb-mq-aUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-268" y="1424"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="dad0.png" width="766" height="828"/>
+        <image name="dad1.png" width="760" height="824"/>
+        <image name="dad2.png" width="772" height="804"/>
         <image name="icons8-lol-50-iloveimg-resized.png" width="25" height="25"/>
         <image name="pun.png" width="25" height="25"/>
     </resources>
