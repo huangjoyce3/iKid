@@ -60,17 +60,6 @@ class Pun1ViewController: UIViewController {
         switchViewController(p1, to: p2)
         nextBtn.setTitle("Back", for: .normal)
         
-//        if p1 != nil {
-//            UIView.setAnimationTransition(.flipFromRight, for: view, cache: true)
-//            p2.view.frame = view.frame
-//            punJoke.text = ""
-//            switchViewController(p1, to: p2)
-//        }
-//        else {
-//            UIView.setAnimationTransition(.flipFromLeft, for: view, cache: true)
-//            start.view.frame = view.frame
-//            switchViewController(p2, to: start)
-//        }
         UIView.commitAnimations()
     }
     @IBAction func nextBtn(_ sender: UIButton) {
