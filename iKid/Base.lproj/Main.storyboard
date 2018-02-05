@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -200,48 +199,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="What did the buffalo say to this son when he went to college?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FU-ol-wco">
+                                <rect key="frame" x="45" y="284" width="285" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="ZZm-zt-KtY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaO-nK-NuS">
-                                <rect key="frame" x="283" y="373.5" width="32" height="233.5"/>
+                                <rect key="frame" x="171" y="444" width="32" height="30"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="nextBtn:" destination="6xO-HX-2dN" eventType="touchUpInside" id="ktw-hq-STE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y26-c0-SZg">
-                                <rect key="frame" x="281" y="393.5" width="34" height="103.5"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="dBC-BF-0W8" kind="show" id="94A-1r-zrr"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="What did the buffalo say to this son when he went to college?" textAlignment="center" lineBreakMode="clip" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FU-ol-wco">
-                                <rect key="frame" x="45" y="150" width="285" height="367"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="19"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6FU-ol-wco" firstAttribute="centerX" secondItem="A7d-Mf-hYL" secondAttribute="centerX" id="5AP-12-Gys"/>
-                            <constraint firstItem="Y26-c0-SZg" firstAttribute="top" secondItem="6FU-ol-wco" secondAttribute="centerY" constant="60" id="7Md-ap-MVv"/>
-                            <constraint firstItem="D8R-Ep-uMW" firstAttribute="bottom" secondItem="TaO-nK-NuS" secondAttribute="bottom" constant="60" id="9oK-iw-Sjz"/>
-                            <constraint firstItem="6FU-ol-wco" firstAttribute="centerY" secondItem="A7d-Mf-hYL" secondAttribute="centerY" id="NdH-pA-rdv"/>
-                            <constraint firstItem="D8R-Ep-uMW" firstAttribute="trailing" secondItem="TaO-nK-NuS" secondAttribute="trailing" constant="60" id="QM8-By-ian"/>
-                            <constraint firstItem="6FU-ol-wco" firstAttribute="centerY" secondItem="A7d-Mf-hYL" secondAttribute="centerY" id="XkW-os-Pdo"/>
-                            <constraint firstItem="TaO-nK-NuS" firstAttribute="top" secondItem="6FU-ol-wco" secondAttribute="centerY" constant="40" id="awi-YX-q4Y"/>
-                            <constraint firstItem="6FU-ol-wco" firstAttribute="top" secondItem="D8R-Ep-uMW" secondAttribute="top" constant="130" id="b86-EU-7Q8"/>
-                            <constraint firstItem="6FU-ol-wco" firstAttribute="leading" secondItem="A7d-Mf-hYL" secondAttribute="leading" constant="45" id="b8f-QY-5am"/>
-                            <constraint firstItem="D8R-Ep-uMW" firstAttribute="bottom" secondItem="Y26-c0-SZg" secondAttribute="bottom" constant="170" id="bHO-WZ-o5c"/>
-                            <constraint firstAttribute="trailing" secondItem="6FU-ol-wco" secondAttribute="trailing" constant="45" id="hf2-Fz-HYa"/>
-                            <constraint firstItem="6FU-ol-wco" firstAttribute="centerX" secondItem="A7d-Mf-hYL" secondAttribute="centerX" id="oeR-8V-MGV"/>
-                            <constraint firstItem="D8R-Ep-uMW" firstAttribute="trailing" secondItem="Y26-c0-SZg" secondAttribute="trailing" constant="60" id="uWY-Fs-SrB"/>
+                            <constraint firstItem="TaO-nK-NuS" firstAttribute="centerX" secondItem="A7d-Mf-hYL" secondAttribute="centerX" id="2HF-t9-eTl"/>
+                            <constraint firstItem="TaO-nK-NuS" firstAttribute="top" secondItem="6FU-ol-wco" secondAttribute="bottom" constant="60" id="JW0-cB-zaJ"/>
+                            <constraint firstItem="6FU-ol-wco" firstAttribute="centerY" secondItem="A7d-Mf-hYL" secondAttribute="centerY" id="UFV-Yw-TuX"/>
+                            <constraint firstItem="6FU-ol-wco" firstAttribute="centerX" secondItem="A7d-Mf-hYL" secondAttribute="centerX" id="kKB-O5-JC7"/>
+                            <constraint firstAttribute="trailing" secondItem="6FU-ol-wco" secondAttribute="trailing" constant="45" id="oYB-0D-ubA"/>
+                            <constraint firstItem="6FU-ol-wco" firstAttribute="leading" secondItem="A7d-Mf-hYL" secondAttribute="leading" constant="45" id="q4o-di-vDz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="D8R-Ep-uMW"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pun" image="pun.png" id="kbZ-Hq-kyX"/>
                     <connections>
-                        <outlet property="backBtn" destination="Y26-c0-SZg" id="zow-ht-dQ7"/>
                         <outlet property="nextBtn" destination="TaO-nK-NuS" id="cmH-GA-mof"/>
                         <outlet property="punJoke" destination="6FU-ol-wco" id="iIx-tV-MWX"/>
                     </connections>
@@ -271,6 +258,10 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="IqV-en-D2w" firstAttribute="centerY" secondItem="G2d-3Y-UkY" secondAttribute="centerY" id="07j-MX-Pfb"/>
+                                            <constraint firstItem="IqV-en-D2w" firstAttribute="centerX" secondItem="G2d-3Y-UkY" secondAttribute="centerX" id="UXy-1u-Jea"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>

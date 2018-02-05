@@ -42,13 +42,15 @@ class Pun1ViewController: UIViewController {
     
     @IBOutlet weak var punJoke: UILabel!
     @IBOutlet weak var nextBtn: UIButton!
-    @IBOutlet weak var backBtn: UIButton!
     
     func switchViews(){
         p1Builder()
         p2Builder()
         startBuilder()
-        
+        if nextBtn.titleLabel?.text == "Back" {
+            nextBtn.isHidden = true
+            switchViewController(p2, to: start)
+        }
         UIView.beginAnimations("View Flip", context: nil)
         UIView.setAnimationDuration(0.4)
         UIView.setAnimationCurve(.easeInOut)
@@ -56,8 +58,8 @@ class Pun1ViewController: UIViewController {
         p2.view.frame = view.frame
         punJoke.text = ""
         switchViewController(p1, to: p2)
-        nextBtn.isHidden = true
-        backBtn.isHidden = false
+        nextBtn.setTitle("Back", for: .normal)
+        
 //        if p1 != nil {
 //            UIView.setAnimationTransition(.flipFromRight, for: view, cache: true)
 //            p2.view.frame = view.frame
@@ -91,8 +93,8 @@ class Pun1ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        backBtn.isHidden = true
         switchViewController(nil, to: p1)
+        nextBtn.isHidden = false
     }
 
     override func didReceiveMemoryWarning() {
