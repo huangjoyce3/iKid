@@ -41,14 +41,17 @@ class Pun1ViewController: UIViewController {
     }
     
     @IBOutlet weak var punJoke: UILabel!
-    @IBOutlet weak var nextBtn: UIButton!
+    @IBOutlet weak var punNext: UIButton!
+    @IBAction func clickNextPun(_ sender: Any) {
+        switchViews()
+    }
     
     func switchViews(){
         p1Builder()
         p2Builder()
         startBuilder()
-        if nextBtn.titleLabel?.text == "Back" {
-            nextBtn.isHidden = true
+        if punNext.titleLabel?.text == "Back" {
+            punNext.isHidden = true
             switchViewController(p2, to: start)
         }
         UIView.beginAnimations("View Flip", context: nil)
@@ -58,12 +61,9 @@ class Pun1ViewController: UIViewController {
         p2.view.frame = view.frame
         punJoke.text = ""
         switchViewController(p1, to: p2)
-        nextBtn.setTitle("Back", for: .normal)
+        punNext.setTitle("Back", for: .normal)
         
         UIView.commitAnimations()
-    }
-    @IBAction func nextBtn(_ sender: UIButton) {
-        switchViews()
     }
     
     fileprivate func switchViewController(_ from: UIViewController?, to: UIViewController?) {
@@ -83,7 +83,7 @@ class Pun1ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         switchViewController(nil, to: p1)
-        nextBtn.isHidden = false
+        punNext.isHidden = false
     }
 
     override func didReceiveMemoryWarning() {
