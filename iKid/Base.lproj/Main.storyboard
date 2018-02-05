@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on a category!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKK-lJ-Ys8">
-                                <rect key="frame" x="81.5" y="318.5" width="213" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick on a category!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKK-lJ-Ys8">
+                                <rect key="frame" x="86" y="318.5" width="204" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.10410135619999999" green="0.71682723449999997" blue="0.67338529629999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -404,7 +404,7 @@
     <resources>
         <image name="dad0" width="766" height="828"/>
         <image name="dad1" width="760" height="824"/>
-        <image name="dad2" width="772" height="632"/>
+        <image name="dad2" width="756" height="796"/>
         <image name="icons8-lol-50-iloveimg-resized.png" width="25" height="25"/>
         <image name="pun.png" width="25" height="25"/>
     </resources>
