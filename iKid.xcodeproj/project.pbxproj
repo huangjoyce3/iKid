@@ -14,9 +14,6 @@
 		2F5124BA2028213F0034E504 /* Pun2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124B92028213F0034E504 /* Pun2ViewController.swift */; };
 		2F5124BC2028214C0034E504 /* Pun1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124BB2028214C0034E504 /* Pun1ViewController.swift */; };
 		2F5124BE202846970034E504 /* KK5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124BD202846970034E504 /* KK5ViewController.swift */; };
-		2F5124C020284A430034E504 /* dad1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5124BF20284A430034E504 /* dad1.png */; };
-		2F5124C420284B700034E504 /* dad0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5124C320284B700034E504 /* dad0.png */; };
-		2F5124C620284B960034E504 /* dad2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F5124C520284B960034E504 /* dad2.png */; };
 		2F5124C820284C950034E504 /* Dad2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124C720284C950034E504 /* Dad2ViewController.swift */; };
 		2F5124CA20284CAE0034E504 /* Dad1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124C920284CAE0034E504 /* Dad1ViewController.swift */; };
 		2F5124CC20284CBA0034E504 /* Dad3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5124CB20284CBA0034E504 /* Dad3ViewController.swift */; };
@@ -25,7 +22,6 @@
 		2F7E856A20268560007D13B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E856820268560007D13B6 /* Main.storyboard */; };
 		2F7E856C20268560007D13B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E856B20268560007D13B6 /* Assets.xcassets */; };
 		2F7E856F20268560007D13B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E856D20268560007D13B6 /* LaunchScreen.storyboard */; };
-		2F7E857920268DF7007D13B6 /* icons8-lol-50-iloveimg-resized.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E857820268DF6007D13B6 /* icons8-lol-50-iloveimg-resized.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +32,6 @@
 		2F5124B92028213F0034E504 /* Pun2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pun2ViewController.swift; sourceTree = "<group>"; };
 		2F5124BB2028214C0034E504 /* Pun1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pun1ViewController.swift; sourceTree = "<group>"; };
 		2F5124BD202846970034E504 /* KK5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KK5ViewController.swift; sourceTree = "<group>"; };
-		2F5124BF20284A430034E504 /* dad1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dad1.png; path = ../../../Desktop/dad1.png; sourceTree = "<group>"; };
-		2F5124C320284B700034E504 /* dad0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dad0.png; path = ../../../Desktop/dad0.png; sourceTree = "<group>"; };
-		2F5124C520284B960034E504 /* dad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dad2.png; path = ../../../Desktop/dad2.png; sourceTree = "<group>"; };
 		2F5124C720284C950034E504 /* Dad2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad2ViewController.swift; sourceTree = "<group>"; };
 		2F5124C920284CAE0034E504 /* Dad1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad1ViewController.swift; sourceTree = "<group>"; };
 		2F5124CB20284CBA0034E504 /* Dad3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dad3ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +42,6 @@
 		2F7E856B20268560007D13B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F7E856E20268560007D13B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F7E857020268560007D13B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F7E857820268DF6007D13B6 /* icons8-lol-50-iloveimg-resized.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-lol-50-iloveimg-resized.png"; path = "../../../Downloads/icons8-lol-50-iloveimg-resized.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,16 +84,12 @@
 				2F5124CB20284CBA0034E504 /* Dad3ViewController.swift */,
 				2F5124C920284CAE0034E504 /* Dad1ViewController.swift */,
 				2F5124C720284C950034E504 /* Dad2ViewController.swift */,
-				2F5124BF20284A430034E504 /* dad1.png */,
-				2F5124C320284B700034E504 /* dad0.png */,
-				2F5124C520284B960034E504 /* dad2.png */,
 				2F5124BD202846970034E504 /* KK5ViewController.swift */,
 				2F5124B92028213F0034E504 /* Pun2ViewController.swift */,
 				2F5124BB2028214C0034E504 /* Pun1ViewController.swift */,
 				2F7E856B20268560007D13B6 /* Assets.xcassets */,
 				2F7E856D20268560007D13B6 /* LaunchScreen.storyboard */,
 				2F7E857020268560007D13B6 /* Info.plist */,
-				2F7E857820268DF6007D13B6 /* icons8-lol-50-iloveimg-resized.png */,
 			);
 			path = iKid;
 			sourceTree = "<group>";
@@ -165,11 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F5124C420284B700034E504 /* dad0.png in Resources */,
-				2F5124C620284B960034E504 /* dad2.png in Resources */,
 				2F7E856F20268560007D13B6 /* LaunchScreen.storyboard in Resources */,
-				2F7E857920268DF7007D13B6 /* icons8-lol-50-iloveimg-resized.png in Resources */,
-				2F5124C020284A430034E504 /* dad1.png in Resources */,
 				2F7E856C20268560007D13B6 /* Assets.xcassets in Resources */,
 				2F7E856A20268560007D13B6 /* Main.storyboard in Resources */,
 			);
